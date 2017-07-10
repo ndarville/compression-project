@@ -2,3 +2,4 @@
   command: convert
   settings: -strip -quality 90
   source: [https://git.io/vQXKb]
+  updated: 2017-07-10

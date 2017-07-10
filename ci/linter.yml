@@ -6,3 +6,4 @@ sequence:
         command:  {type: str, required: yes}
         settings: {type: str, required: yes}
         source:   {type: seq, sequence: [{type: str}], required: yes}
+        updated:  {type: date, required: yes}
