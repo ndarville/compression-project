@@ -1,5 +1,30 @@
+- name: Flickr
+  source: [https://yahooeng.tumblr.com/post/130574301641/]
+  confirmed: no
+  updated: 2017-07-11
+- name: Imgur
+  source: [https://web.archive.org/web/20160322200517/https://help.imgur.com/hc/en-us/articles/201424706-How-does-Imgur-compress-my-images-]
+  comment: >
+    - Lossless compression for all images
+    - Lossy compression for images >5MB
+    - The link no longer exists with no replacement
+  confirmed: no
+  updated: 2017-07-11
+- name: Instagram
+  source: [http://regex.info/blog/lightroom-goodies/jpeg-quality]
+  confirmed: no
+  updated: 2017-07-11
 - name: Mastodon
   command: convert
   settings: -strip -quality 90
   source: [https://git.io/vQXKb]
+  confirmed: yes
+  updated: 2017-07-10
+- name: Tumblr
+  source:
+    - http://c1qfxugcgy0.tumblr.com/post/65104175392/
+    - http://smallbusiness.chron.com/good-resolution-tumblr-picture-posts-62906.html
+    - http://smallbusiness.chron.com/stop-tumblr-resizing-images-47013.html
+    - https://www.quora.com/What-is-the-size-limit-on-image-uploads-to-Tumblr/answer/Kateryna-Klymentenko-1
+  confirmed: no
   updated: 2017-07-10

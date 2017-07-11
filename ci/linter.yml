@@ -2,8 +2,10 @@ type: seq
 sequence:
     - type: map
       mapping:
-        name:     {type: str, required: yes, unique: yes}
-        command:  {type: str, required: yes}
-        settings: {type: str, required: yes}
-        source:   {type: seq, sequence: [{type: str}], required: yes}
-        updated:  {type: date, required: yes}
+        name:      {type: str, required: yes, unique: yes}
+        command:   {type: str, required: no}
+        settings:  {type: str, required: no}
+        comment:   {type: str, required: no}
+        source:    {type: seq, sequence: [{type: str}], required: yes}
+        confirmed: {type: bool, required: yes}
+        updated:   {type: date, required: yes}
