@@ -17,10 +17,17 @@
 - name: Mastodon
   command: convert
   settings: -strip -quality 90
+  raw_export: no
   source: [https://git.io/vQXKb]
   confirmed: yes
   updated: 2017-07-10
+- name: SmugMug
+  raw_export: yes
+  source: [https://school.smugmug.com/SmugMug-Tips/Archive-Print-Share]
+  confirmed: yes
+  updated: 2017-07-10
 - name: Tumblr
+  raw_export: no
   source:
     - http://c1qfxugcgy0.tumblr.com/post/65104175392/
     - http://smallbusiness.chron.com/good-resolution-tumblr-picture-posts-62906.html
