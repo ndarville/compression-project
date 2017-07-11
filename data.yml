@@ -23,7 +23,9 @@
   updated: 2017-07-10
 - name: SmugMug
   raw_export: yes
-  source: [https://school.smugmug.com/SmugMug-Tips/Archive-Print-Share]
+  source:
+    - https://school.smugmug.com/SmugMug-Tips/Archive-Print-Share
+    - https://news.smugmug.com/smug-tip-download-all-for-more-than-just-backups-2226b9c67b29
   confirmed: yes
   updated: 2017-07-10
 - name: Tumblr
