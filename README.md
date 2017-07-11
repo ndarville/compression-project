@@ -8,7 +8,7 @@ The easiest approach would be either a `compression.txt` similar to `robots.txt`
 
 Contributing
 ------------
-To update `data.yml`, click **[Edit][]** on it (or this link).
+To update `_data/sites.yml`, click **[Edit][]** on it (or this link).
 
 If you don’t know how the YAML syntax works, just [open an issue][issue] instead.
 
@@ -27,11 +27,11 @@ I have no idea which fields I will end up using, so by all means let me know wha
 
 Future sites
 ------------
-If you have a suggestion for a site to include, [submit it for `todo.yml`][edit-todo] just as you would `data.yml`.
+If you have a suggestion for a site to include, [submit it for `_data/todo.yml`][edit-todo] just as you would `sites.yml`.
 
 
 [tweets]: https://twitter.com/pessimism/status/884018396047781888
-[edit]: https://github.com/ndarville/compression-project/edit/master/data.yml
+[edit]: https://github.com/ndarville/compression-project/edit/master/_data/sites.yml
 [issue]: https://github.com/ndarville/compression-project/issues/new
 [linter]: https://github.com/ndarville/compression-project/blob/master/ci/linter.yml
-[edit-todo]: https://github.com/ndarville/compression-project/edit/master/todo.yml
+[edit-todo]: https://github.com/ndarville/compression-project/edit/master/_data/todo.yml
