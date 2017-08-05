@@ -4,7 +4,7 @@
   updated: 2017-07-11
 - name: Imgur
   source: [https://web.archive.org/web/20160322200517/https://help.imgur.com/hc/en-us/articles/201424706-How-does-Imgur-compress-my-images-]
-  comment: >
+  comment: |
     - Lossless compression for all images
     - Lossy compression for images >5MB
     - The link no longer exists with no replacement
