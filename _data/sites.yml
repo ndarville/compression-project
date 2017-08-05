@@ -1,3 +1,14 @@
+- name: Facebook
+  comment: |
+    - Photos resized unless 720x, 960x, 2048x
+    - Cover images resized unless <100kB
+    - Choose High Quality upload option
+    - Upscaling to 2048x reduces compression
+  source:
+    - https://www.facebook.com/help/266520536764594
+    - https://blog.photoshelter.com/2014/01/facebook-photos-look-bad-diy-solution-fix/
+  confirmed: yes
+  updated: 2017-08-05
 - name: Flickr
   source: [https://yahooeng.tumblr.com/post/130574301641/]
   confirmed: no
@@ -37,3 +48,10 @@
     - https://www.quora.com/What-is-the-size-limit-on-image-uploads-to-Tumblr/answer/Kateryna-Klymentenko-1
   confirmed: no
   updated: 2017-07-10
+- name: Twitter
+  raw_export: no
+  comment: >
+    Images are compressed heavily.
+
+    Deep link to external images to preserve quality.
+  updated: 2017-08-05
