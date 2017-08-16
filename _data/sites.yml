@@ -14,11 +14,11 @@
   confirmed: no
   updated: 2017-07-11
 - name: Imgur
-  source: [https://web.archive.org/web/20160322200517/https://help.imgur.com/hc/en-us/articles/201424706-How-does-Imgur-compress-my-images-]
   comment: |
     - Lossless compression for all images
     - Lossy compression for images >5MB
     - The link no longer exists with no replacement
+  source: [https://web.archive.org/web/20160322200517/https://help.imgur.com/hc/en-us/articles/201424706-How-does-Imgur-compress-my-images-]
   confirmed: no
   updated: 2017-07-11
 - name: Instagram
@@ -29,9 +29,18 @@
   command: convert
   settings: -strip -quality 90
   raw_export: no
-  source: [https://git.io/vQXKb]
+  comment: |
+    The following are compressed at 80:
+    - avatars
+    - account headers
+    - preview cards
+  source:
+    - https://git.io/vQXKb
+    - https://git.io/v7NGA
+    - https://git.io/v7NZU
+    - https://git.io/v7NZO
   confirmed: yes
-  updated: 2017-07-10
+  updated: 2017-08-10
 - name: SmugMug
   raw_export: yes
   source:
@@ -50,8 +59,10 @@
   updated: 2017-07-10
 - name: Twitter
   raw_export: no
-  comment: >
-    Images are compressed heavily.
-
-    Deep link to external images to preserve quality.
-  updated: 2017-08-05
+  comment: |
+    - Images are compressed heavily.
+    - Use transparency in PNG files.
+    - Deep link to external images to preserve quality.
+  source:
+    - https://twitter.com/hmmiller/status/705836294786695169
+  updated: 2017-08-16
