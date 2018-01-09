@@ -1,3 +1,16 @@
+- name: Discord
+  settings: |
+    - "lilliput.JpegQuality: 85"
+    - "lilliput.PngCompression: 7"
+    - "lilliput.WebpQuality: 85"
+  raw_export: no
+  comment: Discord use their own compression tool, lilliput
+  source:
+    - https://blog.discordapp.com/how-discord-resizes-150-million-images-every-day-with-go-and-c-c9e98731c65d
+    - https://github.com/discordapp/lilliput
+    - https://github.com/discordapp/lilliput-bench/blob/master/main.go
+  confirmed: yes
+  updated: 2018-01-09
 - name: Facebook
   comment: |
     - Photos resized unless 720x, 960x, 2048x
